@@ -3,72 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My NFC Card Information</title>
-    <!-- Tailwind CSS CDN for easy styling -->
+    <title>Faysal Ahmed</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts - Inter for a clean, modern look -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Custom styles for the Inter font */
         body {
             font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
-<body class="bg-gradient-to-br from-blue-500 to-purple-600 min-h-screen flex items-center justify-center p-4">
-    <div class="bg-white p-8 rounded-xl shadow-2xl max-w-md w-full text-center transform transition-all duration-500 hover:scale-105">
-        <!-- Header Section -->
-        <header class="mb-6">
-            <h1 class="text-4xl font-bold text-gray-800 mb-2">Welcome!</h1>
-            <p class="text-gray-600 text-lg">You've tapped my NFC card!</p>
-        </header>
+<body class="bg-gray-900 min-h-screen flex items-center justify-center p-4 sm:p-6 md:p-8">
+    <div class="bg-gray-800 p-6 sm:p-8 rounded-2xl shadow-xl max-w-sm w-full aspect-video flex flex-col justify-between transform transition-all duration-300 hover:scale-105 border border-gray-700">
+        <div class="flex justify-between items-center mb-3 sm:mb-4">
+            <h1 class="text-xl sm:text-2xl font-bold tracking-wide text-gray-200">Corporate Connect</h1>
+            <svg class="w-8 h-8 sm:w-10 sm:h-10 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+        </div>
 
-        <!-- Main Content Section -->
-        <main class="space-y-6">
-            <!-- Section 1: About Me/Purpose -->
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-700 mb-3">About Me / Faysal Ahmed</h2>
-                <p class="text-gray-700 leading-relaxed">
-                    I was born into a middle-class family where something is always lacking. I am not very old. But, I believe Skill is the key to Success. I am self-motivated, energetic, enthusiastic, and ever-ready to learn new things. I am confident to ensure the highest level of professionalism and commitment to my job.
-                </p>
-            </section>
+        <div class="flex-grow flex flex-col justify-center px-2 text-center">
+            <div class="mb-3 sm:mb-4">
+                <p class="text-2xl sm:text-3xl md:text-4xl font-light tracking-widest text-gray-400">20090801</p>
+            </div>
 
-            <!-- Section 2: Key Information/Links -->
-            <section class="space-y-4">
-                <h2 class="text-2xl font-semibold text-gray-700 mb-3">Important Links & Info</h2>
-                <div class="flex flex-col space-y-3">
-                    <!-- Example Link 1 -->
-                    <a href="https://www.example.com/portfolio" target="_blank" class="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-md hover:bg-indigo-700 transition-colors duration-300 transform hover:-translate-y-1">
-                        My Portfolio / Website
-                    </a>
-                    <!-- Example Link 2 -->
-                    <a href="mailto:your.email@example.com" class="bg-green-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-green-600 transition-colors duration-300 transform hover:-translate-y-1">
-                        Send Me an Email
-                    </a>
-                    <!-- Example Link 3 -->
-                    <a href="tel:+1234567890" class="bg-red-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-red-600 transition-colors duration-300 transform hover:-translate-y-1">
-                        Call Me
-                    </a>
-                    <!-- You can add more links here -->
-                    <p class="text-gray-700 pt-2">
-                    </p>
-                </div>
-            </section>
+            <div class="mb-4 sm:mb-6">
+                <p class="text-xs sm:text-sm text-gray-500 uppercase tracking-wider">Connect With</p>
+                <p class="text-lg sm:text-xl font-semibold text-gray-300">FAYSAL AHMED</p>
+            </div>
 
-            <!-- Section 3: Call to Action (Optional) -->
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-700 mb-3">Get in Touch!</h2>
-                <p class="text-gray-700 leading-relaxed">
-                    Feel free to connect with me. I look forward to hearing from you!
-                </p>
-            </section>
-        </main>
+            <p class="text-base sm:text-lg leading-relaxed mb-3 sm:mb-4 text-gray-400">
+                Your device may not support NFC. Please use the link below to proceed to the corporate portal.
+            </p>
+        </div>
 
-        <!-- Footer Section -->
-        <footer class="mt-8 text-gray-500 text-sm">
-            <p>&copy; 2025 ahmed8faysal. All rights reserved.</p>
-        </footer>
+        <div class="text-center">
+            <a href="https://meshid.xyz/profile.php?user=faysal-ahmed" target="" rel="noopener noreferrer"
+               class="inline-block bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-gray-500 focus:ring-opacity-75">
+                Access Corporate Portal
+            </a>
+            <p class="mt-3 sm:mt-4 text-xs sm:text-sm text-gray-500 opacity-70">
+                Thank you for your connection.
+            </p>
+        </div>
     </div>
 </body>
 </html>
-
