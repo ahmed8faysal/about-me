@@ -1,2 +1,2 @@
 # about-me
-Tap and Connect Instantly | NFC Card
+Tap and Connect Instantly | NFC
